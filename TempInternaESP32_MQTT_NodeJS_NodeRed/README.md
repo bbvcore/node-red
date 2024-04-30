@@ -10,7 +10,7 @@ los scripts "pub.js" y "sub.js" para poder realizar comprobaciones como cliente 
 del password de la misma y por supuesto indicar la IP del servidor Broker (si estamos en entorno local, la IP de nuestro equipo, eso sí, 
 usar la IP del equipo, no usar 127.0.0.1 o localhost, ya que el ESP32 interpretará que es la IP del dispositivo IoT y no la del servidor
 Broker).<em>
-</li>
+</li><br><br>
 <li>
 <b>Opción Node Red</b>:<em>Solo hace falta lanzar el servidor Node Red e incorporar un flujo nuevo, que está contenido en el fichero
 "FlujoNode-Red_Broker_Aedes.txt". Una vez esté el flujo cargado en Node Red, en el puerto del "Broker" y del módulo "Mqtt in" comprobar
